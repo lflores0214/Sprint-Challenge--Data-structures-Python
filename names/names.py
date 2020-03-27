@@ -196,7 +196,7 @@ for same in names_2:
 end_time = time.time()
 print(f"{len(duplicates)} duplicates:\n\n{', '.join(duplicates)}\n\n")
 print(f"runtime: {end_time - start_time} seconds")
-
+#* time complexity for binary search tree method is (n log n)
 # ---------- Stretch Goal -----------
 # Python has built-in tools that allow for a very efficient approach to this problem
 # What's the best time you can accomplish?  There are no restrictions on techniques or data
